@@ -1,7 +1,7 @@
 const { Schema, model } = require('mongoose');
 const bcrypt = require("bcrypt")
 
-const userSchema = new Schema({
+const sightingSchema = new Schema({
     username: [
         {
           type: Schema.Types.ObjectId,
@@ -13,10 +13,10 @@ const userSchema = new Schema({
         required:true
     },
     createdAt: {
-        type: Date,
-        default: Date.now,
+       type: Date,
+      default: Date.now,
     }
 });
 
-const User = model('User', userSchema);
-module.exports = User;
+const Sighting = model('Sighting', sightingSchema);
+module.exports = Sighting;
