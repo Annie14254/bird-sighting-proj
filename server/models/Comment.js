@@ -15,7 +15,13 @@ const commentSchema = new Schema({
     createdAt: {
        type: Date,
        default: Date.now,
-    }
+    },
+    parentPost: [
+      {
+        type: Schema.Types.ObjectId,
+        ref: "Sighting"
+      }
+    ]
 });
 
 const Comment = model('Comment', commentSchema);
