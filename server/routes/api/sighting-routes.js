@@ -5,7 +5,7 @@ const router = require('express').Router();
 const { createPost, getAllPost, getOnePost, updatePost, deletePost } = require('../../controllers/sighting-controllers');
 
 
-router.route('/create-user').post(createPost);
+router.route('/').post(createPost);
 router.route('/').get(getAllPost)
 router.route('/:id').get(getOnePost);
 router.route('/:id').put(updatePost)
