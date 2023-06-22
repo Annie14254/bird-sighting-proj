@@ -3,8 +3,8 @@ const jwt = require("jsonwebtoken");
 require("dotenv").config();
 
 module.exports = {
-  async createUser({ body }, res) {
-    const newUser = await User.create(body);
+  async createUser(req, res) {
+    const newUser = await User.create(req.body);
 
     if (!newUser) {
       console.log(err);
