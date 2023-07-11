@@ -1,8 +1,9 @@
 import {createContext, useContext, useState, useEffect} from "react"
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Cookies from "js-cookie";
-import { Header, Wrapper } from "../components"
-import { HomePage, LoginPage, SignupPage } from "../pages";
+import Home from "../components/Home"
+import Login from "../components/Login"
+import Signup from "../components/Signup"
 
 export const UserContext = createContext({})
 
