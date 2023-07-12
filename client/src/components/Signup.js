@@ -1,7 +1,8 @@
 import { UserContext } from "../ctx/UserContext"
+import {createContext, useContext, useState, useEffect} from "react"
 
 const Signup = () => {
-  const {currUser} = UserContext()
+  // const {currUser} = UserContext()
 
   return (
     <div>

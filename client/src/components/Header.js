@@ -1,40 +1,21 @@
 import React, { useState, useEffect } from "react";
-import { useUserContext } from "../ctx/UserContext";
+// import { useUserContext } from "../ctx/UserContext";
 
-// export default function Header() {
-//   const [dropNav, setDropNav] = useState(false);
-//   const { currUser, logout } = useUserContext()
-  
-//   useEffect(() => {
-//     setDropNav(false);
-//     console.log("this one here", currUser)
-//   }, []);
-  
-//   return (
-//     <div className="navbar" id={dropNav ? "open" : "close"}>
-//       <div className="toggleButton">
-//         <button onClick={() => {setDropNav((prev) => !prev)}}> 
-//           <AiOutlineMenu /> 
-//         </button>
-//       </div>
+const Header = () => {
+    // const {currUser, logout} = useUserContext()
 
-//       <div className="links">
-        
-//         <a href={`/`} id="name" >RideGuide</a>
-//         {/* <a href={`/maps`} className="navs">Trail</a> */}
+    return(
+        <div>
+            <ul>
+                <li className="nav-item">
+                <a className="nav-link" href="/signup">Signup Page</a>
+                </li>
+                <li className="nav-item">
+                <a className="nav-link" href="/login">Login Page</a>
+                </li>
+            </ul>
+        </div>
+    )
+}
 
-//         { currUser ? (
-//         <>
-//           <a href={`/profile`} className="navs">Profile</a>
-//           <a className="navs" onClick={logout}>Logout</a>
-//         </>
-//         ) : (
-//         <>
-//           <a href={`/signup`} className="navs">Sign Up</a>
-//           <a href={`/login`} className="navs">Log In</a>
-//         </>
-//         )}  
-//       </div>
-//     </div>
-//   )  
-// }
+export default Header
