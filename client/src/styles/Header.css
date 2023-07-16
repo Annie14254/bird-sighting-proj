@@ -1,0 +1,21 @@
+.header-container{
+    background-color: #41388b;
+    margin: 0;
+    padding: 10px
+}
+
+h1{
+    
+}
+
+.nav-container {
+    display: flex;
+    justify-content: flex-end;
+  }
+
+.nav-item {
+    display: inline-flex;
+    justify-content: flex-end;
+    padding: 10px;  
+    margin-right: 10px;
+}

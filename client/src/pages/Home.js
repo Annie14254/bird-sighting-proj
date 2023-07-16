@@ -13,21 +13,23 @@ const Home = () => {
 
       <Container>
         <Row className='gy-3 card-container'>
-          <Card>
-          <div>
-            <p>sample</p>
-          </div>
-          </Card>
-          <Card>
-          <div>
-            <p>sample</p>
-          </div>
-          </Card>
-          <Card>
-          <div>
-            <p>sample</p>
-          </div>
-          </Card>
+          <Col>
+            <Card className='card'>
+            <div>
+              <p>sample1</p>
+            </div>
+            </Card>
+            <Card className='card'>
+            <div>
+              <p>sample2</p>
+            </div>
+            </Card>
+            <Card className='card'>
+            <div>
+              <p>sample3</p>
+            </div>
+            </Card>
+          </Col>
         </Row>
       </Container>
       
