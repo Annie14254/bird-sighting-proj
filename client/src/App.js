@@ -3,9 +3,9 @@ import React, { useState, useEffect } from 'react'
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 // imports wouldn't work when imported as a group?? try to resolve later
-import Home from "./components/Home"
-import Login from "./components/Login"
-import Signup from "./components/Signup"
+import Home from "./pages/Home"
+import Login from "./pages/Login"
+import Signup from "./pages/Signup"
 import Header from "./components/Header"
 import './App.css';
 
