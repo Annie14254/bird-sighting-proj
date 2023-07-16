@@ -1,5 +1,6 @@
 import { UserContext } from "../ctx/UserContext"
 import {createContext, useContext, useState, useEffect} from "react"
+import { Container, Image, Card, Row, Col } from 'react-bootstrap';
 
 const Login = () => {
   // const {currUser, logout} = UserContext()

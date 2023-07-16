@@ -6,6 +6,8 @@ const Header = () => {
 
     return(
         <div>
+            {/* this is a crappy name, think of a better one */}
+            <h1>Bird Watch</h1>
             <ul>
                 <li className="nav-item">
                 <a className="nav-link" href="/signup">Signup Page</a>
