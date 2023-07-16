@@ -8,7 +8,7 @@ const Header = () => {
 
     return(
         <Container className="header-container">
-            <h1>Bird Watch</h1>
+            <a className="title-text" href="/home">Bird Watch</a>
             <Container className="nav-container">
                  
                     <ul className="navbar-parent">

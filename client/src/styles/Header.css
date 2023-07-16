@@ -1,11 +1,14 @@
 .header-container{
     background-color: #41388b;
     margin: 0;
-    padding: 10px
+    padding: 10px;
+    size: 100%
 }
 
-h1{
-    
+.title-text {
+    font-size: 50px;
+    color: white;
+    text-decoration: none;
 }
 
 .nav-container {
@@ -18,4 +21,14 @@ h1{
     justify-content: flex-end;
     padding: 10px;  
     margin-right: 10px;
+    margin-top: -80000px; 
+}
+
+.nav-link {
+    color: white;
+    text-decoration: none;
+}
+
+.nav-link:hover{
+    opacity: 50%
 }
