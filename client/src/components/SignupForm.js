@@ -1,6 +1,6 @@
 import React, { useState } from "react";
-import { checkPassword, validateEmail } from "../../utils/helpers.js";
-import "../../styles/SignUp.css";
+import { checkPassword, validateEmail } from "../utils/helpers"
+import "../styles/Form.css"
 
 
 function Form() {
@@ -79,7 +79,7 @@ function Form() {
   
   return (
     <div className="container">
-      <p className="title">Welcome to Ride Guide, please sign up to be able to leave reviews and comments on trails!</p>
+      <p className="title">Welcome to Bird Watch, please sign up or log in to add observations.</p>
       <form className="form">
         <input
           value={email}
