@@ -1,6 +1,7 @@
 import { UserContext } from "../ctx/UserContext"
 import {createContext, useContext, useState, useEffect} from "react"
 import { Container, Image, Card, Row, Col } from 'react-bootstrap';
+import Form from "../components/Form"
 
 const Login = () => {
   // const {currUser, logout} = UserContext()
@@ -32,7 +33,12 @@ const Login = () => {
 
   return (
     <div>
-        Login
+      <div>
+          Login
+      </div>
+      <div>
+        <Form/>
+      </div>
     </div>
   )
 }
