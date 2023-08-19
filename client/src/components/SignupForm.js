@@ -3,6 +3,8 @@ import { checkPassword, validateEmail } from "../utils/helpers"
 import "../styles/Form.css"
 
 
+// !DOCTYPE is not valid JSON error upon form submit
+
 function Form() {
   const [email, setEmail] = useState('');
   const [userName, setUserName] = useState('');
