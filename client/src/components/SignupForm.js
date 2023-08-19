@@ -45,7 +45,7 @@ function Form() {
       return;
     }
 
-    const query = await fetch("/api/user/create-user", {
+    const query = await fetch("/api/user/", {
       method: "POST",
       body: JSON.stringify({
         email: email,
